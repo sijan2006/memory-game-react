@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+memory/node_modules/
+
+# Build output
+dist/
+build/
+memory/dist/
+memory/build/
+
+# Environment variables
+.env
+memory/.env
+
+# Vite cache
+.vite/
+memory/.vite/
+
+# IDE & OS files
+.DS_Store
+*.log
+
+# Test and coverage output
+coverage/
+*.test.js
+*.test.ts
+jest.config.js
+.vscode/
+*.swp
+
+# npm & yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS specific
+Icon?
+
+# lockfiles if not using them
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
